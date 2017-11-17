@@ -1,0 +1,27 @@
+{
+  "name": "chat-app",
+  "version": "0.0.1",
+  "description": "Chat app running on websockets and socket.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhoumann87/node-chat-app.git"
+  },
+  "keywords": [
+    "nodejs",
+    "socket.io",
+    "express"
+  ],
+  "author": "Michael Houmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhoumann87/node-chat-app/issues"
+  },
+  "homepage": "https://github.com/mhoumann87/node-chat-app#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
