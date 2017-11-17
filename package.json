@@ -4,6 +4,7 @@
   "description": "Chat app running on websockets and socket.io",
   "main": "server.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,13 +16,13 @@
     "socket.io",
     "express"
   ],
+  "engines": {
+    "node": "8.9.1"
+  },
   "author": "Michael Houmann",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mhoumann87/node-chat-app/issues"
   },
-  "homepage": "https://github.com/mhoumann87/node-chat-app#readme",
-  "dependencies": {
-    "express": "^4.16.2"
-  }
+  "homepage": "https://github.com/mhoumann87/node-chat-app#readme"
 }

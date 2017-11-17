@@ -1,2 +1,2 @@
 # Nodejs Chat App
-Chat app useing webscokets and socket.io
+Chat app using web sockets and socket.io
