@@ -28,6 +28,7 @@
   "homepage": "https://github.com/mhoumann87/node-chat-app#readme",
   "dependencies": {
     "express": "^4.16.2",
+    "moment": "^2.19.2",
     "socket.io": "^1.4.8"
   },
   "devDependencies": {
