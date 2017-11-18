@@ -1,6 +1,6 @@
 const expect = require('expect');
 
-const {generateMessage} = require('./message');
+const {generateMessage, generateLocationMessage} = require('./message');
 
 describe('generateMessage', () => {
 
@@ -15,3 +15,17 @@ describe('generateMessage', () => {
   });//correct messageObj
 
 });//describe generateMessage
+
+describe('generateLocationMessage', () => {
+  it('should generate correct geolocation message', () => {
+
+    let message = generateLocationMessage('Admin', 1, 1);
+
+expect(message.createdAt).toBeA('number');
+expect(message.from).toBe('Admin');
+expect(message.url).toEqual('https://www.google.com/maps?q=1,1');
+
+  });
+
+});//describe generateLocationMessage
+
